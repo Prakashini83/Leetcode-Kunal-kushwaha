@@ -1,5 +1,5 @@
 
-#https://leetcode.com/problems/kth-missing-positive-number/description/
+# https://leetcode.com/problems/kth-missing-positive-number/description/
 class Solution {
 public:
     int findKthPositive(vector<int>& arr, int k) {
