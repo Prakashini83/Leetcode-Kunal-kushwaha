@@ -12,12 +12,11 @@ public:
             a.push_back(intervals[i]);
         }
         else
-        {
-            vector<int>&v=a.back();
-            int y=v[1];    
+        {         
+            int y=a.back()[1];    
             if(intervals[i][0]<=y)
             {
-                v[1]=max(y,intervals[i][1]);
+                a.back()[1]=max(y,intervals[i][1]);
             }
             else
             {
